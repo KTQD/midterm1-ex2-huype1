@@ -20,8 +20,8 @@ public class Main {
             }
         }
 
-        if (countMap.containsKey(" ")) {
-            countMap.remove(" ");
+        if (countMap.containsKey("")) {
+            countMap.remove("");
         }
         countMap.forEach((key, value) -> System.out.println(key + " : " + value));
 
